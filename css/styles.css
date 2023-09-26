@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inclusive Sans', Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 86%;
+    margin: 0 auto;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content {
+    height: calc(100vh - 120px);
+}
+
+.header {
+    padding: 16px 0;
+    border-bottom: 1px solid #a9a9a9;
+    background-color: #d3d3d3;
+}
+
+.logo {
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.menu li {
+    display: inline;
+    font-family: 'Inclusive Sans', Arial, Helvetica, sans-serif;
+}
+
+.menu li a {
+    padding: 8px;
+    color: #000;
+}
+
+.menu li a:hover { 
+    text-decoration: none;
+}
+
+.add-task {
+    height: 20vh;
+}
+
+.form-task {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-task label {
+    display: block;
+}
+
+.form-task .input {
+    width: 400px;
+}
+
+.list-task {
+    min-height: 40vh;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 22px 0;
+    border-bottom: 1px solid #a9a9a9;
+}
+
+.task:last-child {
+    border-bottom: 0;
+}
+
+.text-content {
+    flex-grow: 1;
+}
+
+.input {
+   font-size: 14px;
+   padding: 8px 12px; 
+   border: 1px solid #a9a9a9;
+}
+
+.button {
+    font-family: 'Inclusive Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 0;
+    cursor: pointer;
+}
+
+.success {
+    background-color: lightseagreen;
+}
+
+.info {
+    background-color: #add8e6;
+}
+
+.danger {
+    background-color: #f08080;
+}
+
+.footer {
+    padding: 16px 0;
+    border-top: 1px solid #a9a9a9;
+    text-align: center;
+}

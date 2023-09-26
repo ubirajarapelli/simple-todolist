@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todolist</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Oswald:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container container-flex">
+        <span class="logo">1TDSPR</span>
+        <nav>
+          <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Concluidas</a></li>
+            <li><a href="#">Sobre</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main-content">
+      <section class="add-task">
+        <div class="container">
+          <form class="form-task">
+            <div>
+              <label for="task">Adicione uma tarefa</label>
+              <input type="text" id="task" name="task" class="input" />
+              <button class="button success">Adicionar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="list-task">
+        <div class="container">
+          <div class="task">
+            <p class="text-content">Escovar os dentes</p>
+            <button class="button info">Concluída</button>
+            <button class="button danger">Excluir</button>
+          </div>
+          <div class="task">
+            <p class="text-content">Arrumar a cama</p>
+            <button class="button info">Concluída</button>
+            <button class="button danger">Excluir</button>
+          </div>
+          <div class="task">
+            <p class="text-content">Estudar HTML/CSS/Javascript</p>
+            <button class="button info">Concluída</button>
+            <button class="button danger">Excluir</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <p>Feito com &#9825; para a turma 1TDSPR</p>
+      </div>
+    </footer>
+  </body>
+</html>
